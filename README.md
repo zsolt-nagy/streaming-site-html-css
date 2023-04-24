@@ -3,6 +3,8 @@
 This is a clone of a simple streaming platform like Amazon Prime, Netflix,
 HBO Max etc.
 
+Hosting link: https://zsolt-nagy.github.io/streaming-site-html-css/.
+
 ## User stories
 
 Note: the GIVEN-WHEN-THEN statements are not needed for your user stories, they
