@@ -1,0 +1,56 @@
+/* CSS reset */
+html {
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Generic constraints */
+body {
+    min-width: 400px;
+}
+
+/* Header styling */
+h1 {
+    margin-left: 1rem;
+}
+
+.main-header {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu {
+    display: flex;
+    list-style: none;
+}
+
+.header-menu > .header-menu-item {
+    margin: 0 0.5rem;
+}
+
+.display-medium-and-below {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    .display-medium-and-below {
+        display: inline-block;
+    }
+
+    .search-form {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+    }
+}
+
