@@ -34,6 +34,78 @@ h1 {
     margin: 0 0.5rem;
 }
 
+
+/* Movie list */
+.movie-list-title {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+.movie-list-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.movie-list {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    overflow: hidden;
+}
+
+.movie-item {
+    margin: 0.5rem;
+}
+
+.move-button {
+    position: absolute;
+    border-radius: 50%;
+    border: none;
+    padding: 1rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.move-button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.move-button.left {
+    left: 1rem;
+}
+
+.move-button.right {
+    right: 1rem;
+}
+
+.arrow-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    box-sizing: content-box;
+}
+
+
+/* Footer styles */
+.back-to-top-button {
+    width: 100%;
+    border: none;
+    height: 4rem;
+}
+
+.footer-menu {
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu-item {
+    margin: 1rem 2rem;
+}
+
+
+/* Media queries */
+
 .display-medium-and-below {
     display: none;
 }

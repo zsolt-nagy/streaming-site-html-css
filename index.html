@@ -14,49 +14,6 @@
         <link rel="stylesheet" href="./styles/style.css" />
     </head>
     <body>
-        <header>
-            <!-- Bootstrap navbar start -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <div class="container-fluid">
-                    <h2><a class="navbar-brand" href="#">Streaming Site</a></h2>
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                        <ul class="navbar-nav mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Store</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Categories</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">My Videos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Settings</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- Bootstrap navbar end -->
-        </header>
         <header class="main-header">
             <h1>Streaming Site</h1>
             <form action="#" class="search-form">
@@ -145,80 +102,92 @@
                 <!-- Bootstrap carousel end -->
             </section>
             <section>
-                <h2>Popular Movies</h2>
-                <section>
-                    <button>🡸</button>
-                    <ul>
-                        <li>
+                <h2 class="movie-list-title">Popular Movies</h2>
+                <section class="movie-list-container">
+                    <button class="move-button left">
+                        <img src="./assets/leftarrow.svg" alt="Left arrow icon" class="arrow-icon" />
+                    </button>
+                    <ul class="movie-list">
+                        <li class="movie-item">
                             <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
                         </li>
-                        <li>
+                        <li class="movie-item">
                             <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
                         </li>
-                        <li>
+                        <li class="movie-item">
                             <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
                         </li>
-                        <li>
-                            <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
-                        </li>
-                    </ul>
-                    <button>🡺</button>
-                </section>
-            </section>
-            <section>
-                <h2>Recommended Movies</h2>
-                <section>
-                    <button>🡸</button>
-                    <ul>
-                        <li>
-                            <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
-                        </li>
-                        <li>
-                            <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
-                        </li>
-                        <li>
-                            <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
-                        </li>
-                        <li>
+                        <li class="movie-item">
                             <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
                         </li>
                     </ul>
-                    <button>🡺</button>
+                    <button class="move-button right">
+                        <img src="./assets/rightarrow.svg" alt="Left arrow icon" class="arrow-icon" />
+                    </button>
                 </section>
             </section>
             <section>
-                <h2>Best Rated Movies</h2>
-                <section>
-                    <button>🡸</button>
-                    <ul>
-                        <li>
+                <h2 class="movie-list-title">Recommended Movies</h2>
+                <section class="movie-list-container">
+                    <button class="move-button left">
+                        <img src="./assets/leftarrow.svg" alt="Left arrow icon" class="arrow-icon" />
+                    </button>
+                    <ul class="movie-list">
+                        <li class="movie-item">
                             <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
                         </li>
-                        <li>
+                        <li class="movie-item">
                             <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
                         </li>
-                        <li>
+                        <li class="movie-item">
                             <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
                         </li>
-                        <li>
+                        <li class="movie-item">
                             <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
                         </li>
                     </ul>
-                    <button>🡺</button>
+                    <button class="move-button right">
+                        <img src="./assets/rightarrow.svg" alt="Left arrow icon" class="arrow-icon" />
+                    </button>
                 </section>
             </section>
             <section>
-                <button>Back to Top</button>
+                <h2 class="movie-list-title">Best Rated Movies</h2>
+                <section class="movie-list-container">
+                    <button class="move-button left">
+                        <img src="./assets/leftarrow.svg" alt="Left arrow icon" class="arrow-icon" />
+                    </button>
+                    <ul class="movie-list">
+                        <li class="movie-item">
+                            <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
+                        </li>
+                        <li class="movie-item">
+                            <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
+                        </li>
+                        <li class="movie-item">
+                            <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
+                        </li>
+                        <li class="movie-item">
+                            <img src="https://placehold.co/356x200/BBBBBB/000000/png" alt="356x200 placeholder" />
+                        </li>
+                    </ul>
+                    <button class="move-button right">
+                        <img src="./assets/rightarrow.svg" alt="Left arrow icon" class="arrow-icon" />
+                    </button>
+                </section>
             </section>
         </main>
 
         <footer>
+            <section>
+                <button class="back-to-top-button">Back to Top</button>
+            </section>
             <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">About Us</a></li>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item"><a href="#">Home</a></li>
+                    <li class="footer-menu-item"><a href="#">Sitemap</a></li>
+                    <li class="footer-menu-item"><a href="#">Privacy Policy</a></li>
+                    <li class="footer-menu-item"><a href="#">About Us</a></li>
                 </ul>
             </nav>
         </footer>

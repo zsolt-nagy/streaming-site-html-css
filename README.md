@@ -40,3 +40,7 @@ AS A child
 I WANT TO collect some stories about movies
 SO THAT I can brag about them at school
 ```
+
+## Attribution 
+
+- [Font Awesome](https://fontawesome.com/license) icons: see license information inside the svg files of the assets folder.
