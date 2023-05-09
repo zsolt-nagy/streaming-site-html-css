@@ -11,6 +11,8 @@ html {
 /* Generic constraints */
 body {
     min-width: 400px;
+    background-color: black;
+    color: whitesmoke;
 }
 
 /* Header styling */
@@ -25,14 +27,56 @@ h1 {
     align-items: center;
 }
 
+.search-form {
+    display: flex;
+}
+
+.search-input {
+    height: 2rem;
+    padding: 0.5rem;
+    border: 3px solid darkorange;
+    border-right: none;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+
+.search-submit {
+    background-color: goldenrod;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 3px solid darkorange;
+    border-left: none;
+    height: 2rem;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+
 .header-menu {
     display: flex;
     list-style: none;
+    margin: 0;
 }
 
 .header-menu > .header-menu-item {
     margin: 0 0.5rem;
 }
+
+.header-menu-link {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+}
+
+.header-menu-link:hover {
+    color: deepskyblue;
+}
+
+/*Carousel */
+
 
 
 /* Movie list */
@@ -53,6 +97,10 @@ h1 {
     list-style: none;
     display: flex;
     overflow: hidden;
+}
+
+.movie-list .movie-tn-small {
+    height: 200px;
 }
 
 .movie-item {
@@ -124,6 +172,12 @@ h1 {
 @media screen and (max-width: 768px) {
     .main-header {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .header-menu {
+        display: none;
     }
 }
 
