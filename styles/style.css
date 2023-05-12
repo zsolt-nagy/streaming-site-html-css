@@ -165,6 +165,11 @@ h1 {
     text-decoration: none;
 }
 
+.footer-menu-link:hover, .back-to-top:hover {
+    color: deepskyblue;
+}
+
+
 
 /* Media queries */
 
@@ -193,6 +198,12 @@ h1 {
         display: none;
     }
 
-    
+    .move-button {
+        display: none;
+    }
+
+    .movie-list {
+        flex-direction: column;
+    }
 }
 
