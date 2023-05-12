@@ -136,20 +136,33 @@ h1 {
 
 
 /* Footer styles */
-.back-to-top-button {
-    width: 100%;
-    border: none;
+.back-to-top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 4rem;
+}
+
+.back-to-top {
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 .footer-menu {
     list-style: none;
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .footer-menu-item {
     margin: 1rem 2rem;
+}
+
+.footer-menu-link {
+    color: whitesmoke;
+    text-decoration: none;
 }
 
 
@@ -179,5 +192,7 @@ h1 {
     .header-menu {
         display: none;
     }
+
+    
 }
 
