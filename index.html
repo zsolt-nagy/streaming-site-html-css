@@ -35,9 +35,212 @@
                     <li class="header-menu-item"><a href="#" class="header-menu-link">Store</a></li>
                     <li class="header-menu-item"><a href="#" class="header-menu-link">Categories</a></li>
                     <li class="header-menu-item"><a href="#" class="header-menu-link">My Videos</a></li>
-                    <li class="header-menu-item"><a href="#" class="header-menu-link">Settings</a></li>
+                    <li class="header-menu-item">
+                        <a class="header-menu-link" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            Settings
+                        </a>
+                    </li>
                 </ul>
             </nav>
+
+            <!-- Modal -->
+            <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                data-bs-theme="dark"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+            >
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel">Settings</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form action="https://formspree.io/f/mbjebozl" method="POST">
+                                <div class="mb-3">
+                                    <label for="exampleInputUsername" class="form-label">Username</label>
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        id="exampleInputUsername"
+                                        value="Streamer"
+                                        name="Username"
+                                        required
+                                    />
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input
+                                        type="email"
+                                        class="form-control"
+                                        id="exampleInputEmail1"
+                                        aria-describedby="emailHelp"
+                                        value="streamer@streammail.com"
+                                        name="Email"
+                                        required
+                                    />
+                                    <div id="emailHelp" class="form-text">
+                                        We'll never share your email with anyone else.
+                                    </div>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <h3>Favorite Categories</h3>
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="0check"
+                                            name="genre-Action-film"
+                                        />
+                                        <label class="form-check-label" for="0check">Action film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="1check"
+                                            name="genre-Adventure-film"
+                                            checked
+                                        />
+                                        <label class="form-check-label" for="1check">Adventure film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="2check"
+                                            name="genre-Animated-film"
+                                        />
+                                        <label class="form-check-label" for="2check">Animated film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="3check"
+                                            name="genre-Comedy-film"
+                                        />
+                                        <label class="form-check-label" for="3check">Comedy film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="4check"
+                                            name="genre-Drama"
+                                        />
+                                        <label class="form-check-label" for="4check">Drama</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="5check"
+                                            name="genre-Fantasy-film"
+                                        />
+                                        <label class="form-check-label" for="5check">Fantasy film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="6check"
+                                            name="genre-Historical-film"
+                                            checked
+                                        />
+                                        <label class="form-check-label" for="6check">Historical film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="7check"
+                                            name="genre-Horror-film"
+                                        />
+                                        <label class="form-check-label" for="7check">Horror film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="8check"
+                                            name="genre-Musical-film"
+                                        />
+                                        <label class="form-check-label" for="8check">Musical film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="9check"
+                                            name="genre-Noir-film"
+                                        />
+                                        <label class="form-check-label" for="9check">Noir film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="10check"
+                                            name="genre-Romance-film"
+                                        />
+                                        <label class="form-check-label" for="10check">Romance film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="11check"
+                                            name="genre-Science-fiction-film"
+                                        />
+                                        <label class="form-check-label" for="11check">Science fiction film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="12check"
+                                            name="genre-Thriller-film"
+                                        />
+                                        <label class="form-check-label" for="12check">Thriller film</label>
+                                    </div>
+
+                                    <div>
+                                        <input
+                                            type="checkbox"
+                                            class="form-check-input"
+                                            id="13check"
+                                            name="genre-Western"
+                                        />
+                                        <label class="form-check-label" for="13check">Western</label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
         <main>
             <section>
