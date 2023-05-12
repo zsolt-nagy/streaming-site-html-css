@@ -25,6 +25,12 @@ body {
     color: var(--text);
 }
 
+/* Bootstrap component overrides */
+.form-check-label, .form-check-input {
+    cursor: pointer;
+    user-select: none;
+}
+
 /* Header styling */
 h1 {
     margin-left: 1rem;
